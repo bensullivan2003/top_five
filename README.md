@@ -4,3 +4,5 @@ Sample Top Five project for the CI/CD activity in class. To run the project loca
 * pip install -r requirements.txt
 * python app.py
 * Open browser and visit http://127.0.0.1:5000/ (or designated link provided)
+
+Names: Ben Sullivan and Jake Frohlich
