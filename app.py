@@ -20,5 +20,17 @@ def home():
         return redirect("/")
     return render_template("index.html", submissions=submissions)
 
+
+def get_request(Request request):
+    if request.equals("GET"):
+
+        # Implement get functionality here
+    elif request.equals("POST"):
+        # Implement post functionality here
+        else:
+            return "GET and POST are the only valid requests."
+
+
+
 if __name__ == "__main__":
     app.run(debug=True)
